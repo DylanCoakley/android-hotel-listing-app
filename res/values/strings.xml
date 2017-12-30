@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Hotels</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="return_button">Return</string>
+    <string name="addHotel">Add Hotel</string>
+    <string name="deleteHotel">Delete Hotel</string>
+    <string name="editHotel">Edit Hotel</string>
+    <string name="hotel_name">Hotel Name:</string>
+    <string name="star_rating">Star Rating:</string>
+    <string name="address">Address:</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="fee">Fee:</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="done_button">Done</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/addHotel"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel_name"
+            android:textSize="16dp"
+            android:textColor="@color/blue"
+            android:paddingRight="18dp"/>
+
+        <EditText
+            android:id="@+id/new_hotel_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/star_rating"
+            android:textSize="16dp"
+            android:textColor="@color/blue"
+            android:paddingRight="25dp"/>
+
+        <EditText
+            android:id="@+id/new_hotel_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="12345"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="16dp"
+            android:textColor="@color/blue"
+            android:paddingRight="45dp"/>
+
+        <EditText
+            android:id="@+id/new_hotel_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:textSize="16dp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:id="@+id/new_hotel_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="1234567890-()"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fee"
+            android:textSize="16dp"
+            android:textColor="@color/blue"
+            android:paddingRight="80dp"/>
+
+        <EditText
+            android:id="@+id/new_hotel_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="1234567890.$"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_button"/>
+
+
+</LinearLayout>
